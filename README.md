@@ -1,7 +1,7 @@
 # NobleNeuron
 
 
-![Logo](https://github.com/StxGuy/GreenCheetah/blob/main/gsheetah.svg)
+![Logo](https://github.com/StxGuy/NobleNeuron/blob/main/nobleneuron.svg)
 
 ## About
 
