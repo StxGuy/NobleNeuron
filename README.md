@@ -1,7 +1,7 @@
 # NobleNeuron
 
 
-![Logo](https://github.com/StxGuy/NobleNeuron/blob/main/nobleneuron.png)
+![Logo](https://github.com/StxGuy/NobleNeuron/blob/main/NobleNeuron.png)
 
 ## About
 
