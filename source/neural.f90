@@ -37,6 +37,7 @@ module NobleNeuron
         procedure           :: feedforward
         procedure           :: applyGrads
         procedure           :: Loss, gradLoss
+        procedure           :: output
 
     end type
 
@@ -73,6 +74,17 @@ module NobleNeuron
         self%beta2n = 0.999
     end function
 
+    !------------------------------------------------------
+    ! Output
+    !------------------------------------------------------
+!     subroutine output(self,Z)
+!         implicit none
+!         
+!         class(NeuralNetwork),intent(in) :: self
+!         real(dp),intent(out)            :: Z(:,:)
+!         
+!         Z = self%tail%Z
+!     end subroutine
 
     !------------------------------------------------------
     ! Feed Forward 
