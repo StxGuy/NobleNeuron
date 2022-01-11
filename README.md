@@ -15,7 +15,7 @@ A library in C++/Armadillo and Fortran for simulating neural networks.
 
     @misc{daCunha2021,
         author       = {C. R. da Cunha},
-        title        = {{NobleNeuron, a Fortran library for simulating neural networks.}},
+        title        = {{NobleNeuron, a library for simulating neural networks.}},
         month        = apr,
         year         = 2021,
         version      = {1.0},
