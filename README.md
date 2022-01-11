@@ -25,5 +25,5 @@ A library in C++/Armadillo and Fortran for simulating neural networks.
         
 ## License
 
-Copyright (c) 2021 - Carlo R. da Cunha, "NobleNeuron" \
+Copyright (c) 2021-2022 - Carlo R. da Cunha, "NobleNeuron" \
 <carlo.requiao@gmail.com>
