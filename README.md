@@ -5,7 +5,7 @@
 
 ## About
 
-A library in C++/Armadillo and Fortran for simulating neural networks.
+A library in C++/Armadillo and Fortran for simulating neural networks. Currently the C++ version supports multilayer feedforward and convolutional networks.
     
 [![Generic badge](https://img.shields.io/badge/GitHub-StxGuy/NobleNeuron-<COLOR>.svg)](https://github.com/StxGuy/NobleNeuron)
 
