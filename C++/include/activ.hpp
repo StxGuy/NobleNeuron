@@ -9,6 +9,7 @@ using namespace arma;
 
 
 mat activate(mat, string);
+cube deactivate(cube, string);
 mat deactivate(mat, string);
 
 #endif
