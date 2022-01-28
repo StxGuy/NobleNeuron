@@ -2,9 +2,12 @@ TARGET = neural
 
 # Source files
 CPP_SOURCE =  ./source/activ.cpp \
-	      ./source/layer.cpp \
-              ./source/neural.cpp \
-              ./source/loss.cpp \
+	      ./source/loss.cpp \
+	      ./source/ff_layer.cpp \
+	      ./source/conv_layer.cpp \
+	      ./source/pooling_layer.cpp \
+	      ./source/FeedForward.cpp \
+	      ./source/Convolutional.cpp \
               ./source/main.cpp \
 
 # Include files
