@@ -50,13 +50,11 @@ display:
 
 
 $(TARGET): $(OBJ)
-	@echo "# Linking $@..."
-	$(CC) $^ $(CPP_FLAGS) -I$(INCLUDE)  -o $@ $(LIBRARIES)
-	@echo ""
+	
 
 ./objects/%.o: ./source/%.cpp
 	@echo "# Building target: $<"
-	$(CC) $< $(CPP_FLAGS) -I$(INCLUDE) -c -o $@ 
+	$(CC) $< $(CPP_FLAGS) -I$(INCLUDE) -c -o $@ $(LIBRARIES)
 	@echo ""
 		
 install: 
@@ -75,7 +73,7 @@ endif
 	@sudo cp include/NobleNeuron.hpp /usr/local/include/NobleNeuron
 	@sudo cp include/NobleNeuron_headers/* /usr/local/include/NobleNeuron_headers
 	@echo "# Copying binary..."
-	@sudo mb libNobleNeuron.a /usr/local/lib
+	@sudo mv libNobleNeuron.a /usr/local/lib
 		
 clean:
 	@$(RM) ./objects/*.o $(TARGET) *~
